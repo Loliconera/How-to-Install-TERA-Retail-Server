@@ -7,6 +7,7 @@ Keep in mind, the purpose of this guide is pointing you to the right direction c
 # Contents
 
 1. Server Files
+1.1 Client Files
 2. Requirements
 3. Installing SQL Server
 4. Restore Databases SQL Server
@@ -28,14 +29,17 @@ Keep in mind, the purpose of this guide is pointing you to the right direction c
 17. VMS
 18. Useful Guides for Beginners
 19. Extra
-20. FAQ
+20. Tools
+21. FAQ
 
 ## 1. Server Files
+ * [71.03](https://forum.ragezone.com/threads/release-tera-71-03-eme-retail-proto-333782-webapp-vm.1220939/)
  * [92.03](https://disk.yandex.ru/d/Fob3M8BffjcTrg)
  * [92.04](https://disk.yandex.ru/d/GcB_CyNARHo3qw)
  * [100.02](https://drive.google.com/drive/folders/1kNkxB8H9_ROIwaMIav2lCtfPP9Wo9NB2), [Link 2](https://disk.yandex.ru/d/mIKWjplKyYiliA?w=1)
  * [TERA Clients and Servers Collection](https://forum.ragezone.com/f797/tera-clients-and-servers-collection-1209317/)
 ## 1.1 Client Files
+* [71.03](https://forum.ragezone.com/threads/release-tera-71-03-eme-retail-proto-333782-webapp-vm.1220939/)
 * [92.03](https://forum.ragezone.com/f797/release-tera-v92-03-retail-1193481-post9079748/#post9079748)
 * [92.04](https://disk.yandex.ru/d/GcB_CyNARHo3qw)
 * [100.02](https://mega.nz/folder/wx8AEAIC#JdSyKwOlpC6PIV8sffxzGA)
@@ -186,7 +190,7 @@ Follow [this](https://forum.ragezone.com/f797/tera-level-100-version-1205489-pos
 * [Datacenter Collection](https://forum.ragezone.com/f797/tera-datacenter-collection-1208296/)
 
 ## 17. VMS
-
+* [71.03](https://forum.ragezone.com/threads/release-tera-71-03-eme-retail-proto-333782-webapp-vm.1220939/)
 * [92.03](https://forum.ragezone.com/f797/92-03-vmware-1198583/)
 * [100.02 Option 1](https://forum.ragezone.com/f797/tera-level-100-version-1205489/index17.html#post9127017)
 * [100.02 Option 2](https://forum.ragezone.com/f797/tera-100-02-server-vm-1207538/)
@@ -266,11 +270,11 @@ Follow [this](https://forum.ragezone.com/f797/tera-level-100-version-1205489-pos
 
   * **My friends can't connect to my server, which ports i need to open?**  
 
-   **Solution:** Make sure you have your Public / VPN IP address into "loginIp" column of "server_info" table in the Node JS API, then allow the following ports in      your windows fw and router,
+   **Solution:** Make sure you have your Public / VPN IP address into "loginIp" column of "server_info" table in the Node JS API, then allow the following ports in your windows fw and router,
 
-    80  
-    443 (Assuming you're using a custom webpage in the same machine with ssl enabled)  
-    7801 (Assuming you're not using the proxy, if so, allow the port you choose as proxy)  
+   80 (Assuming you're using a custom webpage in the same machine with ssl enabled)
+   8090 (Assuming you're using that port in API_PORTAL_LISTEN_PORT)
+   7801 (Assuming you're not using the proxy, if so, allow the port you choose as proxy)
 
   * **How to change the server name which appears at lobby?**  
 
