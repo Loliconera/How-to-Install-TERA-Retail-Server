@@ -191,7 +191,7 @@ Follow [this](https://forum.ragezone.com/f797/tera-level-100-version-1205489-pos
 
 ## 17. VMS
 * [71.03](https://forum.ragezone.com/threads/release-tera-71-03-eme-retail-proto-333782-webapp-vm.1220939/)
-* [92.03](https://forum.ragezone.com/f797/92-03-vmware-1198583/)
+* [92.04](https://forum.ragezone.com/threads/tera-92-04-vm.1230751/)
 * [100.02 Option 1](https://forum.ragezone.com/f797/tera-level-100-version-1205489/index17.html#post9127017)
 * [100.02 Option 2](https://forum.ragezone.com/f797/tera-100-02-server-vm-1207538/)
 * [100.02 Option 3](https://forum.ragezone.com/threads/tera-100-02-vm.1225405/)
